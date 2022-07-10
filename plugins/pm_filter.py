@@ -349,7 +349,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
             buttons = [
             [
-                InlineKeyboardButton('🌀 Jᴏɪɴ Fᴏʀ Mᴏʀᴇ 🌀', url='https://t.me/Cinemaathattakam_Links')
+                InlineKeyboardButton('🌀 Jᴏɪɴ Fᴏʀ Mᴏʀᴇ 🌀', url='https://t.me/CT_Arena')
             ]
             ]
         if f_caption is None:
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ᴄᴛ ʟɪɴᴋs', url='https://t.me/Cinemaathattakam_Links'),
+            InlineKeyboardButton('ᴄᴛ ʟɪɴᴋs', url='https://t.me/CT_Arena'),
             InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/joinchat/AxHu-k3fvsZmMDE1'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
